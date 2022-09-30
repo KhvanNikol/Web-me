@@ -1,0 +1,56 @@
+:root {
+  --primary-color: rgb(65, 126, 97);
+  --secondary-color: rgb(241, 129, 245);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+h1,
+li,
+.nav-link {
+  color: var(--primary-color);
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+}
+#contact {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.mail-link {
+  color: var(--primary-color);
+}
+.mail-link:hover {
+  color: var(--secondary-color);
+}
+#matcha,
+#weather {
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  padding-top: 5vh;
+}
+#weather-app {
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
+.primary-link {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 20px 15px;
+  text-align: center;
+}
+.secondary-link {
+  border: 2px solid;
+
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: antiquewhite;
+  padding: 23px 17px;
+}
+.navigation-links a {
+  margin: 20px;
+}
