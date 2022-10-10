@@ -54,3 +54,8 @@ li,
 .navigation-links a {
   margin: 20px;
 }
+@media (max-width: 576px) {
+  .primary-link {
+    margin: 0 20px;
+  }
+}
